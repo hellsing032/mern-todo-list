@@ -1,0 +1,8 @@
+# don't ever lint the node_modules
+node_modules
+
+# don't ever lint the dist
+dist
+
+# don't ever lint the coverage output
+coverage
