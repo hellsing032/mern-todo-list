@@ -21,7 +21,8 @@ export const updateTodo = async (id: string): Promise<void> => {
             
             await axios({
                 method: 'PUT',
-                url: `http://localhost:8080/api/update-todo/${id}`
+                url: `http://localhost:8080/api/update-todo/${id}`,
+                data: body
             })
         }
     } catch (error) {
